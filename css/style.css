@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color: #4f4d47;
+    color: lightseagreen;
 	text-decoration: none;
 	-webkit-transition: all .35s; 
 	transition: all .35s;
@@ -56,7 +56,7 @@ p {
 
 h1 {
     font-family: 'Qwigley', Helvetica, Sans-serif;	   
-    font-size: 2.2em;
+    font-size: 4em;
 	font-weight: 600;
     color: #4f4d47;
 	margin-top: 50px;
@@ -133,7 +133,7 @@ h4 {
 }
 
 .media, p {
-	font-size: 1em;
+	font-size: 1.2em;
     font-family: 'Oxygen', sans-serif;	
 	color: #333;
 	line-height: 1.7em;
@@ -495,18 +495,19 @@ h4 {
 	line-height: 1.7em;
 }
 
-.portfolio-items, 
-.portfolio-filter {
+
+.recipe-filters,
+.recipe-section  {
   list-style: none outside none;
   margin: 0 0 40px 0;
   padding: 0;
 }
 
-.portfolio-filter > li {
+.recipe-filters > li {
   display: inline-block;
 }
 
-.portfolio-filter > li a {
+.recipe-filters > li a {
   background: none repeat scroll 0 0 #FFFFFF;
   font-size: 1em;
   font-weight: 400;
@@ -524,15 +525,15 @@ h4 {
 
 }
 
-.portfolio-filter > li a:hover,
-.portfolio-filter > li a.active{
+.recipe-filters > li a:hover,
+.recipe-filters > li a.active{
   color: #898989;
   background: #e0e0e0;
   border: 1px solid #dadada;
   box-shadow: none;
 }
 
-.portfolio-items > li {
+.recipe-section  > li {
   float: left;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -540,7 +541,7 @@ h4 {
   box-sizing: border-box;
 }
 
-.portfolio-item {
+.recipe-section {
   margin: 0;
   padding:0;
 }
@@ -1013,8 +1014,8 @@ h6 span {
 	margin-top: 97px;
 }
 
-.portfolio-items, 
-.portfolio-filter {
+.recipe-section , 
+.recipe-filters {
   margin: 0 53px 40px 0;
   padding: 0;
 }
@@ -1032,8 +1033,8 @@ h6 span {
 	margin-top: 80px;
 }
 
-.portfolio-items, 
-.portfolio-filter {
+.recipe-filters,
+.recipe-section {
   margin: 0 87px 40px 0;
   padding: 0;
 }
@@ -1089,8 +1090,8 @@ h6 {
 	margin-top: 60px;
 }
 
-.portfolio-items, 
-.portfolio-filter {
+.recipe-filters,
+.recipe-section {
   margin: 0 68px 40px 0;
   padding: 0;
 }
@@ -1129,8 +1130,8 @@ h6 {
 
 @media screen and (max-width:768px) {
 
-.portfolio-items, 
-.portfolio-filter {
+.recipe-filters,
+.recipe-section {
   margin: 0 95px 40px 0;
   padding: 0;
 }
@@ -1179,8 +1180,8 @@ h6 {
 	border: none;
 }
 
-.portfolio-items, 
-.portfolio-filter {
+.recipe-filters,
+.recipe-section {
   margin: 0 0 40px 0;
   padding: 0;
 }
