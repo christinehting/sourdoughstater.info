@@ -66,23 +66,21 @@ h1 {
 }
 
 h2 {	
-    font-family: 'Oxygen', sans-serif;	
-    font-size: 1em;
+	font-family: 'Qwigley', Helvetica, Sans-serif;	   
+    font-size: 3em;
 	font-weight: 400;
 	color: #898989;
 	margin-top: 40px;
 	margin-bottom: 34px;
 	text-align: center;
 	line-height: 1.7em;
-	padding-left: 150px;
-	padding-right: 150px;
 }
 
 
 h3 {
     font-family: 'Oxygen', sans-serif;	
-    font-size: 1em;
-	font-weight: 400;
+    font-size: 1.4em;
+	font-weight: 600;
 	color: #898989;
 	margin-top: 16px;
 	margin-bottom: 14px;
@@ -93,32 +91,33 @@ h3 {
 
 h4 {
 	font-family: 'Oxygen', sans-serif;	
-    font-size: 1em;
+    font-size: 1.2em;
 	font-weight: 400;
 	color: #898989;
 	margin-top: 16px;
 	margin-bottom: 14px;
 	text-align: left;
+	text-decoration: underline;
 	line-height: 1.7em;
 }
 
 
 .heading-inner {
     font-family: 'Qwigley', Helvetica, Sans-serif;	   
-    font-size: 2.2em;
+ 
 	font-weight: 600;
     color: #4f4d47;
 	margin-top: 16px;
 	margin-bottom: 0;
 	text-align: center;
-	line-height: 1.7em;
+
 }
 
 
 .hr {
 	border-bottom: 2px solid #4f4d47;
 	display: block;
-	width: 14px;
+	width: 24px;
 	margin: auto;
 	margin-bottom: 20px;
 }
@@ -132,7 +131,7 @@ h4 {
     color: #4f4d47;
 }
 
-.media, p {
+.media, p, .instructions-sublist {
 	font-size: 1.2em;
     font-family: 'Oxygen', sans-serif;	
 	color: #333;
@@ -496,8 +495,7 @@ h4 {
 }
 
 
-.recipe-filters,
-.recipe-section  {
+.recipe-filters{
   list-style: none outside none;
   margin: 0 0 40px 0;
   padding: 0;
@@ -533,18 +531,12 @@ h4 {
   box-shadow: none;
 }
 
-.recipe-section  > li {
-  float: left;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+ul > li{
+	font-size: 1.1em;
+	line-height: 1.7em;
 }
 
-.recipe-section {
-  margin: 0;
-  padding:0;
-}
+
 
 /* Isotope styles */
 /**** Isotope Filtering ****/
@@ -1016,7 +1008,6 @@ h6 span {
 
 .recipe-section , 
 .recipe-filters {
-  margin: 0 53px 40px 0;
   padding: 0;
 }
 
@@ -1033,9 +1024,7 @@ h6 span {
 	margin-top: 80px;
 }
 
-.recipe-filters,
-.recipe-section {
-  margin: 0 87px 40px 0;
+.recipe-filters {
   padding: 0;
 }
 
@@ -1092,7 +1081,6 @@ h6 {
 
 .recipe-filters,
 .recipe-section {
-  margin: 0 68px 40px 0;
   padding: 0;
 }
 
@@ -1132,7 +1120,6 @@ h6 {
 
 .recipe-filters,
 .recipe-section {
-  margin: 0 95px 40px 0;
   padding: 0;
 }
 
@@ -1182,7 +1169,6 @@ h6 {
 
 .recipe-filters,
 .recipe-section {
-  margin: 0 0 40px 0;
   padding: 0;
 }
 
