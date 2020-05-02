@@ -510,7 +510,6 @@ h4 {
   font-size: 1em;
   font-weight: 400;
   margin-right: 10px;
-  text-transform: lowercase;
   transition: all 0.9s ease 0s;
   -moz-transition: all 0.9s ease 0s;
   -webkit-transition: all 0.9s ease 0s;
@@ -520,7 +519,7 @@ h4 {
   color: #898989;
   background-color: transparent;
   border: 1px solid #dadada;
-
+  width: 250px;
 }
 
 .recipe-filters > li a:hover,
