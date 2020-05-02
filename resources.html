@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165306900-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-165306900-1');
+        </script>
+
         <title>Christine's Sourdough Starter Guide</title>
 
         <meta charset="utf-8">
@@ -29,61 +38,136 @@
    <div class="wrapper">
   	  <div class="col-md-12">
          <!-- Logo -->
-         <div class="brand wow fadeIn" data-wow-delay="0.1s"> Christine's Sourdough Starter Guide
-           <!-- <div class="title"> - hat designer -  </div> -->
-         </div>
+         <div class="brand fadeIn"> Christine's Sourdough Starter Guide</div>
 
-            <!-- Navigation -->
-            <nav class="navbar navbar-default" role="navigation">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <div class="navbar-brand">Christine's Sourdough Starter Guide</div>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                        <li>
-                        <a href="index.html">About</a>
-                        </li>
+        <!-- Navigation -->
+        <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <div class="navbar-brand">Christine's Sourdough Starter Guide</div>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
                     <li>
-                        <a href="recipe.html">Recipe</a>
+                    <a href="index.html">About</a>
                     </li>
+                <li>
+                    <a href="recipe.html">Recipe</a>
+                </li>
+                <li>
+                    <a  href="starter.html">Sourdough Starter</a>
+                </li>
                     <li>
-                        <a  href="starter.html">Sourdough Starter</a>
-                    </li>
-                        <li>
-                        <a href="resources.html">Resources</a>
-                    </li>
+                    <a href="resources.html">Resources</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /navbar-collapse -->
+        </nav>
+        <!-- End nav -->
+
+            <div class="margin-collection fadeIn">
+                <div class="col-md-10 col-xs-offset-1">
+                   <h1>Resources</h1>
+                   <div class="hr"></div>
+                </div>
+                <!-- Filters -->
+                <div>
+                  <ul class="recipe-filters text-center">
+                   <li><a class="btn btn-default" href="#" data-filter=".conversions">Conversions</a></li>
+                   <li><a class="btn btn-default" href="#" data-filter=".videos">Videos</a></li>
+                   <li><a class="btn btn-default" href="#" data-filter=".articles">Articles</a></li>
+                   <li><a class="btn btn-default active" href="#" data-filter=".recipe-section">View All</a></li>
                 </ul>
-            </div>
-            <!-- /navbar-collapse -->
-            </nav>
-            <!-- End nav -->
-
-
-      <h1>Coming soon</h1>
+             
+                  <div class="row">
+                     <div class="recipe-section conversions col-lg-8 col-lg-offset-2 col-md-12">
+                        <h2>Volume to Weight Conversions</h2>
+                         <div class="hr"></div>
+                         <div style="margin: 30px;">
+                            <p>A kitchen scale is always recommended when it comes to baking. This is because many ingredients' volume can change depending on temperature, type and other factors. For example, your starter will be a lot more voluminous when it's active.</p>
+                            <p>Here are some approximate volume to weight conversions I made for anyone who can't get their hands on a scale.</p>
+                            <table>
+                                <thead>
+                                    <th>Ingredient</th>
+                                    <th>Volume</th>
+                                    <th>Weight</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Starter (100% hydration, pre-feed)</td>
+                                        <td>1 tbsp</td>
+                                        <td>26g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flour</td>
+                                        <td>1 cup</td>
+                                        <td>130 - 150g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Water (room temp)</td>
+                                        <td>1 cup</td>
+                                        <td>226g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Salt</td>
+                                        <td>1 tsp</td>
+                                        <td>6g</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                         </div>
+                     </div>
+                     <div class="recipe-section videos col-lg-8 col-lg-offset-2 col-md-12">
+                         <h2>Recommended Videos</h2>
+                         <div class="hr"></div>
+                         <div style="margin: 30px;">
+                            <h3>Sourdough Masterclass with Patrick Ryan</h3>    
+                            <div class="video-container">                                
+                                <iframe src="https://www.youtube.com/embed/2FVfJTGpXnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <h3>15 Mistakes Most Beginner Sourdough Bakers Make</h3>
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/BJEHsvW2J6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div> 
+                            <h3>Sourdough Discard Green Onion Pancake</h3>
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/vVx2oFFptG0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>                          
+                         </div>
+                     </div>
+                     <div class="recipe-section articles col-lg-8 col-lg-offset-2 col-md-12">
+                      <h2>Recommended Articles</h2>
+                      <div class="hr"></div>
+                      <div style="margin: 30px;">
+                            <ol type="I">
+                                <li><a href="https://foodbodsourdough.com/baking-timetables/" target="_blank">Alternative baking schedules</a></li>
+                                <li><a href="https://www.thekitchn.com/testing-sourdough-starter-for-baking-23020669" target="_blank">How to know if sourdough starter is ready for baking</a></li>
+                                <li><a href="https://www.kingarthurflour.com/blog/2017/09/29/using-the-autolyse-method" target="_blank">Using the autolyse method</a></li>
+                                <li><a href="https://www.kingarthurflour.com/recipes/collections/sourdough-discard-recipes" target="_blank">Sourdough discard recipes</a></li>
+                            </ul>
+                      </div>
+                     </div>
+                  </div>
+                  
+                </div><!-- /container -->
+             
+             </div>
 
           <!-- Start footer -->
           <div class="footer col-md-6 col-xs-offset-3">
              <h5>&copy; 2020 Christine Ting ✌</h5>
-             <!-- <h5>
-                <a href="#"><i class="fa fa-facebook fa-1x icon1"></i></a>
-                <a href="#"><i class="fa fa-twitter fa-1x icon1"></i></a>
-                <a href="#"><i class="fa fa-instagram fa-1x icon1"></i></a>
-             </h5> -->
           </div>
           <!-- End footer -->
           
       </div>
-      <!-- End col-md-12 -->
-
    </div>
    <!-- End wrapper -->
 
@@ -92,16 +176,7 @@
    <script src="js/jquery-1.11.0.js"></script>
    <!-- Boostrap JS -->
    <script src="js/bootstrap.min.js"></script>
-   <!-- Smooth scroll JS -->
-   <script src="js/smoothscroll.js"></script>
-   
-   <!-- Wow JavaScript -->
-   <script src="js/wow.js"></script>
-    
-   <script>
-   new WOW().init();
-   </script>
-
-
+    <!-- Main JS -->
+  <script src="js/main.js"></script>
 </body>
 </html>
