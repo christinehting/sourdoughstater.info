@@ -1118,11 +1118,6 @@ h6 {
 
 @media screen and (max-width:768px) {
 
-.recipe-filters,
-.recipe-section {
-  padding: 0;
-}
-
 .heading-services {
     font-size: 1.4em;
 	font-weight: 600;
@@ -1176,6 +1171,9 @@ h6 {
 	margin-top: 42px;
 }
 
+.instructions-sublist, .recipe-lists{
+	padding-left: 10px;
+}
 
 }
 
@@ -1188,20 +1186,11 @@ h2 {
 }
 
 
-#contact-area input.submit-button {
-	margin-left: 50px;
-}
-
 
 h6 {
 	margin-left: 0;
 }
 
-.photo-about {
-	margin-top: 20px;
-	margin-bottom: 4px;
-	margin-left: 5px;
-}
 
 }
 
